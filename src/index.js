@@ -65,17 +65,4 @@ class Sorter {
   }
 }
 
-var sorter = new Sorter();
-
-sorter.add(6);
-sorter.add(5);
-sorter.sort([0, 1]);
-
-sorter.add(2);
-sorter.add(1);
-sorter.sort([1, 0]);
-
-console.log(sorter.toArray());
-console.log(sorter.length);
-
 module.exports = Sorter;
